@@ -1,0 +1,300 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+#banner {
+	padding-top: 300px;
+	padding-bottom: 250px;
+}
+.purchase-left h3 {
+	font-size: 23px;
+}
+.purchase-left p {
+	font-size: 17px;
+}
+#mobile {
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+#client {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}    
+    
+}
+
+
+
+
+/*======= Medium device ===========*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.navbar .navbar-nav .nav-link {
+	padding-right: 0;
+	padding-left: 15px;
+}
+.navbar-light .navbar-nav .nav-link::after {
+	left: 60%;
+	transform: translateX(-60%);
+}
+#banner {
+	padding-top: 230px;
+	padding-bottom: 150px;
+}
+.purchase-right a {
+	 margin-right: 0px; 
+}
+.purchase-left h3 {
+	font-size: 22px;
+}
+.purchase-left p {
+	font-size: 16px;
+}
+#video {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.mobile-text {
+	 padding-top: 0; 
+}
+.features {
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.features i {
+	margin-right: 10px;
+}
+.mobile-text h3 {
+	font-size: 26px;
+	padding-bottom: 10px;
+}
+#mobile {
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.card-body {
+	padding: 15px;
+}
+#blog {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+#blog .left {
+	bottom: 40px;
+}
+#blog .right {
+	bottom: 40px;
+}
+#client {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/*======= Small device ===========*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.navbar-toggler i {
+    color: #fff;
+    font-size: 30px;
+    outline: 0;
+}    
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+    background: #998675;
+}
+.navbar {
+	padding: 5px 1rem;
+}
+.navbar-nav {
+	background: #6c5e51;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link::after {
+    background: transparent;
+}        
+#banner {
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+.banner-item h1 {
+	font-size: 40px;
+}
+#service {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#idea {
+	padding-top: 50px;
+}
+.purchase-left {
+    text-align: center;
+}
+.purchase-left h3 {
+	font-size: 22px;
+}
+.purchase-left p {
+	font-size: 16px;
+}
+.purchase-right {
+	text-align: center;
+}
+.purchase-right a{
+    margin-right: 0;
+}
+#purchase {
+	padding-bottom: 75px;
+}
+#gallery {
+	padding-top: 50px;
+}
+.buttons button {
+	padding: 10px 10px;
+	margin: 0 3px;
+}
+#video {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.mobile-text {
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+.features {
+	padding-top: 20px;
+}
+.count-item {
+    margin-bottom: 40px;
+}
+#blog {
+	padding-top: 50px;
+    padding-bottom: 100px;
+}
+#blog .right {
+	bottom: 40px;
+}
+#blog .left {
+	bottom: 40px;
+}
+.client-img {
+    padding-bottom: 40px;
+    text-align: center;
+}
+#client {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}    
+    
+    
+}
+/*======= Xtra Small device ===========*/
+@media (max-width: 575.98px) {
+.navbar-toggler i {
+    color: #fff;
+    font-size: 30px;
+    outline: 0;
+}    
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+    background: #998675;
+}
+.navbar {
+	padding: 5px 1rem;
+}
+.navbar-nav {
+	background: #6c5e51;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link::after {
+    background: transparent;
+}
+#banner {
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+.banner-item h1 {
+	font-size: 40px;
+}
+#service {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#idea {
+	padding-top: 50px;
+}
+.idea-head h2 {
+	font-size: 26px;
+}
+.purchase-left {
+    text-align: center;
+}
+.purchase-left h3 {
+	font-size: 22px;
+}
+.purchase-left p {
+	font-size: 16px;
+}
+.purchase-right {
+	text-align: center;
+}
+.purchase-right a{
+    margin-right: 0;
+}
+#purchase {
+	padding-bottom: 75px;
+}
+#gallery {
+	padding-top: 50px;
+}
+.buttons button {
+	padding: 10px 12px;
+	margin: 0 4px;
+	margin-bottom: 15px;
+}
+#video {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.idea-head h2 {
+	font-size: 22px;
+}
+.idea-head p {
+	font-size: 14px;
+}
+.mobile-text {
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+.features {
+	padding-left: 0px;
+}
+.features i {
+	margin-right: 10px;
+}
+.count-item {
+    margin-bottom: 40px;
+}
+#blog {
+	padding-top: 50px;
+    padding-bottom: 100px;
+}
+#blog .right {
+	bottom: 40px;
+}
+#blog .left {
+	bottom: 40px;
+}
+#client {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.client-img {
+    text-align: center;
+    padding-bottom: 30px;
+}    
+
+    
+    
+}

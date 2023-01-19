@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a, a:hover {
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+/* Navbar part css */
+
+.navbar-nav, .nav-link, .navbar-light{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar{
+    padding: 35px 1rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #c7b299;
+}
+.bg{
+    background: #191919;
+    position: fixed;
+    animation: 1s;
+}
+
+
+/* Banner part css */
+
+#banner{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 380px;
+    padding-bottom: 380px;
+    position: relative;
+}
+#banner:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.705);
+}
+.banner-item h3{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding-bottom: 3px;
+}
+.banner-item h1{
+    font-size: 52px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding-bottom: 14px;
+}
+.banner-item p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 24px;
+    padding-bottom: 45px;
+}
+.banner-item a{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding: 21px 38px;
+    border-radius: 3px;
+    border-bottom: 3px solid #736357;
+    text-transform: uppercase;
+    background: #999966;
+}
+
+.banner-slider{
+    position: relative;
+    z-index: 999;
+    padding-bottom: 20px;
+}
+.banner-item{
+    padding-bottom: 25px;
+}
+
+/* Services part css */
+
+#service{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.service-item img{
+    font-size: 80px;
+    color: #555;
+}
+.service-item h3{
+    font-size: 22px;
+    color: #555;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-top: 26px;
+    transition: all linear 3s;
+}
+.service-item p{
+    font-size: 14px;
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+}
+.service-item{
+    position: relative;
+    padding-bottom: 30px;
+}
+.service-item:after{
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 3px;
+    background: #f1eee9;
+    transition: all linear 3s;
+}
+.service-item:hover img{
+    color: #c7b299;
+}
+.service-item:hover h3{
+    color: #c7b299;
+}
+.service-item:hover:after{
+    color: #c7b299;
+}
+
+/* Idea part css */
+
+#idea{
+    background: #fbfaf8;
+    padding-top: 83px;
+}
+.idea-head{
+    padding-bottom: 40px;
+}
+.idea-head h2{
+    font-size: 30px;
+    color: #555;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 22px;
+}
+.idea-head p{
+    font-size: 14px;
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+/* Purchase part css */
+
+#purchase{
+    background: rgb(33,27,25);
+    background: linear-gradient(90deg, rgba(33,27,25,1) 0%, rgba(78,52,39,1) 100%);427);
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+.purchase-left h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+.purchase-left span{
+    color: #c7b299;
+}
+.purchase-left p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #615855;
+    padding-top: 4px;
+}
+.purchase-right{
+    padding-top: 20px;
+}
+.purchase-right a{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding: 21px 38px;
+    background: #998675;
+    border-radius: 3px;
+    border-bottom: 3px solid #736357;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+/* Gallery part css */
+
+#gallery{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.gallery-head{
+    padding-bottom: 40px;
+}
+.gallery-head h2{
+    font-size: 30px;
+    color: #555;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 22px;
+}
+.gallery-head p{
+    font-size: 14px;
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.buttons{
+    margin-bottom: 40px;
+}
+.mixitup-control-active{
+    background: #998675;
+    color: #fff !important;
+    border-color: #998675;
+}
+.buttons button{
+    padding: 10px 17px;
+    border: 1px solid #ebebeb;
+    margin: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+.buttons button:hover{
+    background: #998675;
+    color: #fff;
+    border-color: #998675;
+}
+.gal-img{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    width: 100%;
+    height: 100%;
+    background: rgb(17, 17, 17, 0.7);
+    opacity: 0;
+}
+.overlay i{
+    position: relative;
+    top: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    transition: all linear .3s;
+    font-size: 24px;
+    margin: 0 14px;
+}
+.overlay i:hover{
+    color: #c7b299;
+}
+.gal-text{
+    padding: 30px 28px;
+    position: relative;
+}
+.gal-text:after{
+    position: absolute;
+    content: '';
+    width: 28px;
+    height: 28px;
+    background: #fff;
+    top: -10px;
+    left: 20px;
+    transform: rotate(45deg);
+}
+.gal-text h3{
+    color: #c7b299;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 7px;
+}
+.gal-text p{
+    color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+.gallery-item{
+    padding-bottom: 30px;
+}
+.gallery-item:hover .overlay{
+    opacity: 1;
+}
+.gallery-item:hover .gal-text{
+    background: #362f2d;
+}
+.gallery-item:hover .gal-text:after{
+    background: #362f2d;
+}
+.gal-img .img-fluid{
+    width: 100%;
+}
+.load-btn a{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    padding: 20px 36px;
+    background: #998675;
+    border-radius: 3px;
+    border-bottom: 3px solid #736357;
+    text-transform: uppercase;
+}
+/* .img-fluid {
+    width: 100%;
+} */
+
+/*================= video Pasrt CSS =================*/
+#video {
+    background: url(../images/video.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 210px;
+    padding-bottom: 255px;
+    position: relative;
+}
+#video:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.5)
+}
+.video-head {
+    padding-bottom: 0;
+    position: relative;
+    z-index: 999;
+}
+.video-head h2, .video-head p{
+    color: #fff
+}
+.video-head i {
+    font-size: 70px;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    line-height: 100px;
+}
+.video-head h2 {
+    padding-top: 20px;
+}
+
+
+/*================= mobile Pasrt CSS =================*/
+#mobile {
+    padding-top: 80px;
+}
+.mobile-text {
+    padding-top: 118px;
+}
+.mobile-text h3 {
+    font-size: 30px;
+    color: #555;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
+}
+.mobile-text p {
+    font-size: 14px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+}
+.features {
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.features i {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background: #c7b299;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 300;
+    margin-right: 30px;
+}
+
+/* Courter part css */
+
+#counter {
+    background-image: linear-gradient(to right, #211b19 , #4e3427);
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.count-item h3 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.count-item p {
+    font-size: 14px;
+    color: #c7b299;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/* Blog  Part CSS */
+
+#blog {
+    padding-top: 80px;
+    padding-bottom: 142px;
+    position: relative;
+}
+#blog .left, #blog .right{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #d6d6d6;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 25px;
+}
+#blog .left:hover {
+    color: #c7b299;
+    border-color: #c7b299;
+}
+#blog .right:hover {
+    color: #c7b299;
+    border-color: #c7b299;
+}
+#blog .right {
+    position: absolute;
+    bottom: 80px;
+    left: 49%;
+}
+#blog .left {
+    position: absolute;
+    bottom: 80px;
+    right: 49%;
+}
+.card-title {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+    font-weight: 500;
+    transition:all linear .3s;
+}
+.card-text {
+    font-size: 14px;
+    color: #8c8c8c;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    transition:all linear .3s;
+}
+.card a {
+    font-size: 14px;
+    color: #c7b299;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: capitalize;
+    transition:all linear .3s;
+}
+.card a i{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.card {
+    position: relative;
+    width: 90%;
+}
+.date {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    text-align: center;
+}
+.top {
+    background: #363636;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+    height: 35px;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    transition:all linear .3s;
+}
+.bottom {
+    background:#252525;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #ddd;
+    height: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+    transition:all linear .3s;
+}
+.blog-img {
+    position: relative;
+}
+.over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.7);
+    opacity: 0;
+    transition:all linear .3s;
+}
+.card:hover .over{
+    opacity: 1;
+}
+.card:hover .top{
+    background: #c7b299;
+}
+.card:hover .bottom{
+    background: #a48d72;
+}
+.card:hover .card-body{
+    background: #362f2d;
+}
+.card:hover .card-title{
+    color: #c7b299;
+}
+.card:hover .card-text{
+    color: #fff;
+}
+.slick-center .over{
+    opacity: 1;
+}
+.slick-center .top{
+    background: #c7b299;
+}
+.slick-center .bottom{
+    background: #a48d72;
+}
+.slick-center .card-body{
+    background: #362f2d;
+}
+.slick-center .card-title{
+    color: #c7b299;
+}
+.slick-center .card-text{
+    color: #fff;
+}
+
+
+/*============ client  Part CSS =============*/
+#client {
+    background: url(../images/client.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    position: relative;
+}
+#client:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.7);
+}
+.client-main {
+    position: relative;
+    z-index: 99;
+}
+
+/*  */
+
+.back-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+.back-top i {
+    width: 40px;
+    height: 40px;
+    background: #c7b299;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+[class*=" imghvr-shutter-in-"]::after, [class*=" imghvr-shutter-in-"]::before, [class^="imghvr-shutter-in-"]::after, [class^="imghvr-shutter-in-"]::before {
+	background: #069552;
+
+}
+[class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
+	background-color: red;
+}
+.iconm i {
+    font-size: 100px;
+    color: red;
+}
+
+
+
+
+/* Footer part css */
+
+footer .container{
+    padding: 50px 0;
+} 
+.copyright {
+    background-image: -moz-linear-gradient( 0deg, rgb(25,25,25) 0%, rgb(25,25,25) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(25,25,25) 0%, rgb(25,25,25) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(25,25,25) 0%, rgb(25,25,25) 100%);
+    z-index: 3;
+}
+.copyright h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.copyright p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb( 85, 85, 85 );
+    line-height: 1.714;
+    text-align: left;
+    z-index: 9;
+    padding: 10px 0;
+}  
+.prom a{
+    color: #fff;
+    font-size: 14px;
+}
+#recent-posts p {
+    border-bottom: 1px solid rgb( 89, 95, 111 );
+}
+#dribble .row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}  
+#dribble img {
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -webkit-transition: all 1s ease-out;
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
+   padding: 5px;
+}
+  
+#dribble img:hover{
+   -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -o-transform: scale(1.1);
+}
+  
+/* Copyright footer css */
+
+.copyright_bot{
+    background-color: rgb( 17, 17, 17);
+}
+
+
